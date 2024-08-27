@@ -7,9 +7,9 @@ function toggleMode() {
   if (html.classList.contains("light")) {
     //se tiver light mode, adicionar a img light
 
-    img.setAttribute("src", "./assets/Desktop/Avatar2.png")
+    img.setAttribute("src", "./assets/Desktop/avatar-light.png")
   } else {
-    img.setAttribute("src", "./assets/Desktop/Avatar.png")
+    img.setAttribute("src", "./assets/Desktop/Avatar1.png")
   }
   //frase da img
   const imgAlt = document.querySelector("#profile img")
